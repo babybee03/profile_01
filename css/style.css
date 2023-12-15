@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    min-width: 700px;
     background: #050a13;
     padding: 1rem;
     
@@ -30,7 +31,6 @@
 .header_menu_item {
     display: block;
     padding: 8px 16px;
-    border-bottom: 1px solid transparent;
 }
 .header_menu_item:hover {
     border-bottom: 1px solid #03e8f9;
@@ -57,6 +57,43 @@ ul {
 }
 a {
     text-decoration: none;
-    color: orange;
+    color: rgb(234, 255, 255);
 }
-
+#home {
+    background-color: rgb(228, 228, 228);
+    color: rgb(25, 77, 97);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+}
+.home_avatar {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(21, 82, 172);
+}
+.section_title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.home_title-strong {
+    color: rgb(16, 106, 241);
+}
+.section_description {
+    font-size: 1.3rem;
+}
+.section_contact {
+    display: inline-block;
+    background-color: rgb(71, 145, 255);
+    color:rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.section_contact:hover {
+    background-color: transparent;
+    color: rgb(25, 77, 97);
+    outline: 2px solid rgb(71, 145, 255);
+}
