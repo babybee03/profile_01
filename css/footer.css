@@ -9,13 +9,13 @@
     gap: 5rem;
     padding: 1rem;
 }
+
 .contact_icon {
     margin: 0.5rem;
     transition: all 300ms;
+
 }
-.contact_icon > span {
-    
-}
+
 .contact_icon:hover {
     color: yellow;
 }

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Grandiflora One', cursive;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(196, 246, 255);
+    width: 100%;
+    min-width: 770px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display:flex;
+    align-items: center;
+    font-size: 20pt;
+    font-weight: 700;
+    color: rgb(18, 188, 218);
+    
+    gap: 10px;
+    padding-left: 30px;
+}
+.right {
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    color: rgb(18, 188, 218);
+    
+    font-size: 15pt;
+}
+.intro {
+    background-color: rgb(129, 232, 250);
+}
+.intro > img {
+    border-radius: 40px;
+    opacity: 0.8;
+    padding: 30px;
+}
+
