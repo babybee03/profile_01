@@ -36,6 +36,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .intro > img {
@@ -67,17 +68,20 @@ header {
     grid-template-areas:
         'd d d'
         'a b c';
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 100px 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 330px;
     background-color: rgb(196, 246, 255);
-    color: rgb(10, 152, 177);
     font-weight: 700;
+    padding-bottom: 20px;
     
 }
 #a_1 {
+    grid-area: d;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    color: rgb(9, 108, 126);
 }
 .eat {
     width: 90%;
@@ -86,12 +90,22 @@ header {
     border-radius: 25px;
     margin: 15px;
     object-fit: cover;
-}
-.eat > img {
-    border-radius: 10px;
-    padding: 25px 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 30px;
+}
+
+.eat > img {
+    width: 80%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 90%;
+}
+.eat > div {
+    color: rgb(213, 249, 255);
 }
 #snack_1 {
     grid-area: a;
@@ -101,4 +115,178 @@ header {
 }
 #snack_3 {
     grid-area: c;
+}
+.drink {
+    background-color: rgb(129, 232, 250);
+    display: grid;
+    grid-template-areas:
+        'e e e'
+        'f g h';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 330px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#a_2 {
+    grid-area: e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 108, 126);
+}
+.liquid {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(7, 198, 231);
+    border-radius: 25px;
+    margin: 15px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.liquid > img {
+    width: 80%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 90%;
+}
+.eat > div {
+    color: rgb(213, 249, 255);
+}
+#drink_1 {
+    grid-area: f;
+}
+#drink_2 {
+    grid-area: g;
+}
+#drink_3 {
+    grid-area: h;
+}
+
+.survey {
+    background-color: rgb(196, 246, 255);
+    display: grid;
+    grid-template-areas:
+        'i i i i'
+        'j m p s'
+        'k n q t'
+        'l o r u';
+    grid-template-columns: 10% 40% 10% 40%;
+    grid-template-rows: 80px 80px 80px 80px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 20px;
+}
+.survey_0 {
+    grid-area: i;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 108, 126);
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+#num_1 {
+    grid-area: j;
+    background-color:  rgb(252, 255, 96);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(255, 109, 109);
+}
+#num_2 {
+    grid-area: k;
+    background-color:  rgb(96, 231, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(5, 105, 122);
+}
+#num_3 {
+    grid-area: l;
+    background-color:  rgb(96, 231, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(5, 105, 122);
+}
+#list_1 {
+    grid-area: m;
+}
+#list_2 {
+    grid-area: n;
+}
+#list_3 {
+    grid-area: o;
+}
+#num_4 {
+    grid-area: p;
+    background-color:  rgb(252, 255, 96);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(255, 109, 109);
+}
+#num_5 {
+    grid-area: q;
+    background-color:  rgb(96, 231, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#num_6 {
+    grid-area: r;
+    background-color:  rgb(96, 231, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#list_4 {
+    grid-area: s;
+}
+#list_5 {
+    grid-area: t;
+}
+#list_6 {
+    grid-area: u;
+}
+.bar_1 {
+    width: 92%;
+    height: 10px;
+    background-color: #c7c7c7;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.bar_2 {
+    height: 10px;
+    background-color: rgb(5, 105, 122);
+    border-radius: 25px;
 }
