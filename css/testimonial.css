@@ -17,11 +17,12 @@
     border-radius: 100%;
     box-shadow: 4.0px 8.0px 8.0px rgba(0, 0, 0, 0.38);
 }
-.textimonial_bubble {
+.testimonial_bubble {
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 4.0px 8.0px 8.0px rgba(0, 0, 0, 0.38);
 }
 .testimonial_bubble_name {
     color: rgb(195, 0, 255);
+    font-weight: bold;
 }
