@@ -1,6 +1,5 @@
 body {
-    font-family: 'Grandiflora One', cursive;
-    box-sizing: border-box;
+    font-family: 'Gowun Dodum', sans-serif;
     margin: 0;
 }
 
@@ -34,10 +33,72 @@ header {
 }
 .intro {
     background-color: rgb(129, 232, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .intro > img {
     border-radius: 40px;
     opacity: 0.8;
-    padding: 30px;
+    margin: 30px 0 30px 0;
+    
+}
+.intro > div {
+    color: rgb(21, 133, 153);
+    font-size: 15pt;
+    text-align: center;
+}
+.intro a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(7, 198, 231);
+    margin: 15px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
 }
 
+.snack {
+    display: grid;
+    grid-template-areas:
+        'd d d'
+        'a b c';
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100px 500px;
+    background-color: rgb(196, 246, 255);
+    color: rgb(10, 152, 177);
+    font-weight: 700;
+    
+}
+#a_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eat {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(7, 198, 231);
+    border-radius: 25px;
+    margin: 15px;
+    object-fit: cover;
+}
+.eat > img {
+    border-radius: 10px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+#snack_1 {
+    grid-area: a;
+}
+#snack_2 {
+    grid-area: b;
+}
+#snack_3 {
+    grid-area: c;
+}

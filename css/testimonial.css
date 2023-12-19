@@ -13,6 +13,7 @@
 .testimonial_img {
     width: 150px;
     height: 150px;
+    object-fit: cover;
     border-radius: 100%;
     box-shadow: 4.0px 8.0px 8.0px rgba(0, 0, 0, 0.38);
 }
