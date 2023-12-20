@@ -12,6 +12,11 @@
     justify-content: space-between;
     align-items: center;
     z-index: 30;
+    transition: all 200ms;
+}
+.header-dark {
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .header_logo {
     display: flex;

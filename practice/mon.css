@@ -290,3 +290,32 @@ header {
     background-color: rgb(5, 105, 122);
     border-radius: 25px;
 }
+.contact {
+    background-color: rgb(129, 232, 250);
+    font-weight: 700;
+    color: rgb(9, 108, 126);
+    
+    display: grid;
+    grid-template-areas:
+        'v v'
+        'w ww';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px;
+    padding: 50px;
+    padding-top: 30px;
+}
+.contact_1 {
+    grid-area: v;
+    text-align: center;
+    line-height: 50px;
+}
+.contact_2 {
+    grid-area: w;
+    text-align: center;
+    line-height: 50px;
+}
+.contact_3 {
+    grid-area: ww;
+    text-align: center;
+    line-height: 50px;
+}
