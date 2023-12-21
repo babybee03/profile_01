@@ -24,6 +24,6 @@
 #about {
     opacity: 0;
 }
-.appear {
+#about.appear {
     opacity: 1;
 }

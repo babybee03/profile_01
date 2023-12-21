@@ -13,3 +13,9 @@ document.addEventListener("scroll", function() {
     }
 });
 */
+
+const aa = document.querySelector('#ab');
+const bb = document.querySelector('#cd');
+aa.addEventListener('click', function(){
+    bb.style.color = red; 
+});
