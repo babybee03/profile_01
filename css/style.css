@@ -14,9 +14,8 @@
     z-index: 9999;
     transition: all 200ms;
 }
-.header-dark {
-    background-color: rgb(90, 214, 173);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.change {
+    background-color: orange;
 }
 .header_logo {
     display: flex;

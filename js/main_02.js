@@ -12,10 +12,14 @@ document.addEventListener("scroll", function() {
         topButton.style.opacity = 0;
     }
 });
-*/
+
+
 
 const aa = document.querySelector('.testimonial_img');
 const bb = document.querySelector('.testimonial_bubble');
 aa.addEventListener('click', function(){
     bb.style.color = "red"; 
 });
+*/
+
+
