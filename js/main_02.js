@@ -14,8 +14,8 @@ document.addEventListener("scroll", function() {
 });
 */
 
-const aa = document.querySelector('#ab');
-const bb = document.querySelector('#cd');
+const aa = document.querySelector('.testimonial_img');
+const bb = document.querySelector('.testimonial_bubble');
 aa.addEventListener('click', function(){
-    bb.style.color = red; 
+    bb.style.color = "red"; 
 });
