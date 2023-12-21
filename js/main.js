@@ -20,3 +20,16 @@ document.addEventListener('scroll', function() {
         header.classList.remove('header-dark');
     }
 });
+
+
+const suddenly = document.querySelector('#home');
+const happen = suddenly.clientHeight;
+
+document.addEventListener('scroll', function() {
+    if (window.scrollY > happen) {
+            console.log(window.scrollY);
+        document.querySelector("#about").classList.add('appear');
+    } else {
+        document.querySelector("#about").classList.remove("appear");
+    }
+});
