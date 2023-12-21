@@ -1,3 +1,4 @@
+/*
 const home = document.querySelector(".home_container");
 const homeHeight = home.offsetHeight;
 const topButton = document.querySelector(".arrow_up");
@@ -11,3 +12,4 @@ document.addEventListener("scroll", function() {
         topButton.style.opacity = 0;
     }
 });
+*/
