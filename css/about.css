@@ -21,9 +21,3 @@
     margin: 1rem 0;
     color: rgb(0, 247, 255);
 }
-#about {
-    opacity: 0;
-}
-#about.appear {
-    opacity: 1;
-}
