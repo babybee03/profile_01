@@ -12,8 +12,10 @@ document.addEventListener("scroll", function() {
         topButton.style.opacity = 0;
     }
 });
-*/
 
+
+
+<<<<<<< HEAD
 const home = document.querySelector('.home_container');
 const homeHeight = document.querySelector('.arrow_up');
 
@@ -28,3 +30,13 @@ document.addEventListener('scroll', function(){
     homeHeight.style.opacity = 0;
  }
 })
+=======
+const aa = document.querySelector('.testimonial_img');
+const bb = document.querySelector('.testimonial_bubble');
+aa.addEventListener('click', function(){
+    bb.style.color = "red"; 
+});
+*/
+
+
+>>>>>>> 888b62f40329f5b0b240c6235892edf0d250022d
