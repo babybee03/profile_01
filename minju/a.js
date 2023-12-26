@@ -1,1 +1,1 @@
-document.querySelector('div').classList.add('color');
+let text = document.getElement
