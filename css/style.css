@@ -77,25 +77,23 @@ a {
     padding-top: 7rem;
     text-align: center;
 }
-.custom-shape-divider-top-1703647098 {
-    position: absolute;
-    top: 0px;
-    left: 0;
+.custom-shape-divider-top-1703685575 {
     width: 100%;
     overflow: hidden;
     line-height: 0;
 }
 
-.custom-shape-divider-top-1703647098 svg {
+.custom-shape-divider-top-1703685575 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-    
+    width: calc(136% + 1.3px);
+    height: 113px;
 }
-.custom-shape-divider-top-1703651472 .shape-fill {
-    fill: #FFFFFF;
+
+.custom-shape-divider-top-1703685575 .shape-fill {
+    fill: #050a13;
 }
+
 .home_avatar {
     width: 250px;
     height: 250px;
