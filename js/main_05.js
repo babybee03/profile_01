@@ -1,6 +1,7 @@
+/*
 const categoryButtons = document.querySelectorAll('.category_button');
 const projects = document.querySelectorAll('.project');
-
+/*
 /*
 Method 1: Single functions
 */
@@ -45,6 +46,8 @@ categoryButtons.forEach((button) => {
 });
 
 // Teacher method: ul에서 click
+const category = document.querySelector('.category');
+const projects = document.querySelectorAll('.project');
 categories.addEventListener('click', (event) => {
     const filter = event.target.dataset.category;
 
@@ -59,4 +62,19 @@ categories.addEventListener('click', (event) => {
     const active_button = document.querySelector('.category_selected');
     active_button.classList.remove('category_selected');
     event.target.classList.add('category_selected');
-})*/
+})
+*/
+
+const category = document.querySelector('.category');
+const projects = document.querySelectorAll('.project');
+category.addEventListener('click', function(event){
+    const filter = event.target.dataset.category;
+
+    projects.forEach(function(project){
+        if (filter === "all" || filter === project.target.dataset.type) {
+            project.style.display = "block";
+        } else {
+            project.style.display = "none";
+        }
+    })  
+})
