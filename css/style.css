@@ -70,11 +70,31 @@ a {
     color: rgb(234, 255, 255);
 }
 #home {
+    position: relative;
     background-color: #050a13;
     color: orange;
     padding: 5rem 1rem;
     padding-top: 7rem;
     text-align: center;
+}
+.custom-shape-divider-top-1703647098 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1703647098 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    
+}
+.custom-shape-divider-top-1703651472 .shape-fill {
+    fill: #FFFFFF;
 }
 .home_avatar {
     width: 250px;
@@ -83,6 +103,8 @@ a {
     border-radius: 50%;
     border: 3px solid rgb(255, 194, 81);
 }
+
+
 .section_style {
     text-align: center;
     padding: 4rem;
