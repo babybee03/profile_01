@@ -65,9 +65,9 @@ categories.addEventListener('click', (event) => {
 })
 */
 
-const category = document.querySelector('.category');
+const categories = document.querySelector('.category');
 const projects = document.querySelectorAll('.project');
-category.addEventListener('click', function(event){
+categories.addEventListener('click', function(event){
     const filter = event.target.dataset.category;
 
     projects.forEach(function(project){
