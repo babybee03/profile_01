@@ -4,7 +4,7 @@ const projects = document.querySelectorAll('.project');
 /*
 /*
 Method 1: Single functions
-*/
+
 function handleCategoryButtonClick(event) {
     const filter = event.target.dataset.category;
 
@@ -24,7 +24,7 @@ function handleCategoryButtonClick(event) {
 categoryButtons.forEach((button) => {
     button.addEventListener('click', handleCategoryButtonClick);
 });
-
+*/
 /*
 Method 2: 4 functions
 categoryButtons.forEach((button) => {
@@ -64,7 +64,7 @@ categories.addEventListener('click', (event) => {
     event.target.classList.add('category_selected');
 })
 */
-
+/*
 const categories = document.querySelector('.category');
 const projects = document.querySelectorAll('.project');
 categories.addEventListener('click', function(event){
@@ -77,4 +77,24 @@ categories.addEventListener('click', function(event){
             project.style.display = "none";
         }
     })  
+})
+*/
+const categories = document.querySelector('.category');
+const projects = document.querySelectorAll('.project');
+
+categories.addEventListener('click', (event) => {
+    console.log(event);
+    const filter = event.target.dataset.category;
+    console.log(filter);
+    projects.forEach((project) => {
+        console.log(project.dataset.type);
+        if (filter === 'all' || filter === project.dataset.type) {
+            project.style.display = 'block';
+        } else {
+            project.style.display = 'none';
+        }
+        if (filter == null) {
+            return;
+        }
+    })
 })
