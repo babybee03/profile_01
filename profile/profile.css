@@ -13,3 +13,79 @@ header {
     display: flex;
     gap: 20px;
 }
+.main_introduce {
+    width: 100%;
+    height: 500px;
+    background-color: purple;
+    display: grid;
+    grid-template-areas: 
+        'intro_1 intro_2'
+        'intro_1 intro_3';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 20%;
+}
+.z_index {
+    display: none;
+}
+.intro_1 {
+    grid-area: intro_1;
+    background-color: rgb(150, 219, 153);
+}
+.intro_2 {
+    grid-area: intro_2;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;    
+}
+.intro_3 {
+    grid-area: intro_3;
+    background-color: rgb(130, 112, 211);
+}
+.second_page {
+    display: grid;
+    grid-template-areas:
+        'job_1 job_2';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+}
+.job_1 {
+    grid-area: job_1;
+    background-color:rgb(24, 207, 33);
+}
+.job_2 {
+    grid-area: job_2;
+    background-color:rgb(18, 100, 22);
+}
+.third_page {
+    display: grid;
+    grid-template-areas:
+        'zero'
+        '1st'
+        '2nd'
+        '3rd';
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+.zero {
+    grid-area: 1st;
+    background-color:rgb(54, 18, 100);
+}
+.first {
+    grid-area: 1st;
+    background-color:rgb(124, 76, 187);
+}
+.second {
+    grid-area: 2nd;
+    background-color:rgb(158, 109, 223);
+}
+.third {
+    grid-area: 1st;
+    background-color:rgb(223, 207, 243);
+}
+.fourth_page {
+    background-color: black;
+    height: 550px;
+}
+.portfolio_1 {
+    
+}
