@@ -1,22 +1,64 @@
+html, body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+.font {
+    color: black;
+    font-size: 40pt;
+}
+.fonti {
+    font-size: 25pt;
+}
+
 header {
-    background-color: red;
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.phone_menu {
+    display: none;
+}
+.phone_menubar {
+    display: none;
 }
 .left{
     display: flex;
     gap: 20px;
 }
+.left > div {
+    font-size: 15pt;
+}
+.left a {
+    color: black;
+    text-decoration: none;
+}
 .right {
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+.right img {
+    width: 30px;
+}
+.right img:hover {
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    border-bottom: 10px double black;
 }
 .main_introduce {
     width: 100%;
     height: 500px;
-    background-color: purple;
     display: grid;
     grid-template-areas: 
         'intro_1 intro_2'
@@ -25,21 +67,32 @@ header {
     grid-template-rows: 80% 20%;
 }
 .z_index {
-    display: none;
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    right: 0px;
+    z-index: 2;
+    font-size: 150px;
+    font-weight: 700;
 }
 .intro_1 {
     grid-area: intro_1;
-    background-color: rgb(150, 219, 153);
 }
-.intro_2 {
+.intro_2{
     grid-area: intro_2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.intro_2 img {
     width: 300px;
     height: 300px;
-    object-fit: cover;    
+    object-fit: cover;
 }
 .intro_3 {
     grid-area: intro_3;
-    background-color: rgb(130, 112, 211);
+    text-align: center;
 }
 .second_page {
     display: grid;
@@ -47,45 +100,207 @@ header {
         'job_1 job_2';
     grid-template-columns: 50% 50%;
     grid-template-rows: 500px;
+    border-bottom: 10px double black;
+}
+.frontend_1 {
+    padding: 50px;
+}
+.frontend_2 {
+    padding: 0 0 30px 50px;
+}
+.frontend_3 {
+    padding: 0 50px 0 50px;
 }
 .job_1 {
     grid-area: job_1;
-    background-color:rgb(24, 207, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job_1 img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
 }
 .job_2 {
     grid-area: job_2;
-    background-color:rgb(18, 100, 22);
 }
 .third_page {
+    border-bottom: 10px double black;
+}
+.wrap {
+    height: 80px;
+    overflow: hidden;
+}
+.expertise {
     display: grid;
-    grid-template-areas:
-        'zero'
-        '1st'
-        '2nd'
-        '3rd';
-    grid-template-columns: 100%;
-    grid-template-rows: 80px 80px 80px 80px;
+    grid-template-areas: 'e_1 e_2 e_3 e_4';
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 80px;
 }
-.zero {
-    grid-area: 1st;
-    background-color:rgb(54, 18, 100);
+.hiding {
+    margin: 20px auto;
+    border: 10px solid black;
+    width: 90%;
+    height: 40px;
 }
-.first {
-    grid-area: 1st;
-    background-color:rgb(124, 76, 187);
+.gauge {
+    background-color: #e4e4e4;
+    height: 20px;
 }
-.second {
-    grid-area: 2nd;
-    background-color:rgb(158, 109, 223);
+.e_1 {
+    grid-area: e_1;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
 }
-.third {
-    grid-area: 1st;
-    background-color:rgb(223, 207, 243);
+.e_2 {
+    grid-area: e_2;
 }
+.e_3 {
+    grid-area: e_3;
+    font-size: 20pt;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.e_4 {
+    grid-area: e_4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e_4 img {
+    width: 25px;
+}
+
 .fourth_page {
-    background-color: black;
-    height: 550px;
+    height: 800px;
+    border-bottom: 10px double black;
 }
 .portfolio_1 {
+    height: 100px;
+}
+.portfolio_2 {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    overflow-x: scroll;
+    overflow-y: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    scroll-snap-align: start;
+}
+.portfolio_2 img {
+    width: 400px;
     
+}
+.art_1 {
+    background-color: red;
+    min-width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+}
+.art_2 {
+    background-color: rgb(244, 105, 105);
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+}
+.art_3 {
+    background-color: rgb(239, 178, 178);
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+}
+.art_4 {
+    background-color: rgb(244, 105, 105);
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+}
+.art_5 {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+}
+.fifth_page {
+    display: grid;
+    grid-template-areas: 
+        'contact'
+        'get_in_touch_with';
+    grid-template-columns: 100%;
+    grid-template-rows: 120px 180px;
+    border-bottom: 10px double black;
+}
+.contact_1 {
+    grid-area: contact;
+}
+.contact_2 {
+    grid-area: get_in_touch_with;
+    display: grid;
+    grid-template-areas:
+        'touch_icon'
+        'sora_space'
+        'mail';
+    grid-template-columns: 25% 45% 30%;
+    grid-template-rows: 180px;
+    
+}
+.get_in_touch_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get_in_touch_1 > div {
+    background-color: black;
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    line-height: 144px;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+.get_in_touch_2 {
+    display: flex;
+    flex-direction: column;
+}
+.touch_title {
+    font-size: 15pt;
+    height: 60px;
+    line-height: 60px;
+}
+.get_in_touch_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.footer_2 > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.footer_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+    gap: 15px;
+
+}
+.footer_3 img {
+    width: 30px;
+}
+
+.footer_3 img:hover {
+    cursor: pointer;
 }

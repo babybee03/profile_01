@@ -1,0 +1,84 @@
+@media all and (max-width: 1000px) {
+    .z_index {
+        left: 100px;
+        font-size: 120px;
+        top: 218px;
+    }
+}
+@media all and (max-width: 800px) {
+    
+    header {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .menu_all {
+        height: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+    .open {
+        overflow: visible;
+    }
+    .fonti {
+        font-size: 18pt;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .phone_menu {
+        display: flex;
+        padding: 0;
+    }
+    .phone_menubar {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 150px;
+        background-color: black;
+        z-index: 2;
+    }
+    .phone_menubar > div {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: end;
+        padding-right: 20px;
+        color: white;
+    }
+    .phone_menubar > div:hover {
+        background-color: rgb(40, 230, 255);
+    }
+    
+    .z_index {
+        position: absolute;
+        top: 262px;
+        left: 60px;
+        right: 0px;
+        z-index: 2;
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .get_in_touch_1 > div {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        line-height: 110px;
+        text-align: center;
+        color: white;
+        font-size: 11.5pt;
+    }
+    .intro_2 img {
+        width: 80%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .job_1 img {
+        width: 80%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
