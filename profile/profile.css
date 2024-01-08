@@ -10,18 +10,27 @@ html, body {
 .font {
     color: black;
     font-size: 40pt;
+    padding-left: 20px;
 }
 .fonti {
     font-size: 25pt;
 }
 
 header {
+    position: fixed;
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    z-index: 10;
+}
+.fix {
+    background-color: black;
+}
+.change {
+    color: white;
 }
 .phone_menu {
     display: none;
@@ -140,19 +149,20 @@ main {
 }
 .hiding {
     margin: 20px auto;
-    border: 10px solid black;
+    border: 5px solid black;
     width: 90%;
     height: 40px;
 }
 .gauge {
-    background-color: #e4e4e4;
-    height: 20px;
+    background: linear-gradient(to right, #000000, #e4e4e4);
+    height: 30px;
 }
 .e_1 {
     grid-area: e_1;
     font-size: 30pt;
     display: flex;
     align-items: center;
+    padding-left: 20px;
 }
 .e_2 {
     grid-area: e_2;
@@ -303,4 +313,8 @@ main {
 
 .footer_3 img:hover {
     cursor: pointer;
+}
+.fold {
+    height: 150px;
+    overflow: visible;
 }
