@@ -12,6 +12,9 @@
         align-items: center;
         
     }
+    header.fix a {
+        color: white;
+    }
     .menu_all {
         height: 50px;
         overflow: hidden;

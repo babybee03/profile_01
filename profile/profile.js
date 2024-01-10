@@ -30,11 +30,21 @@ var header = document.querySelector('header');
 var change = document.querySelectorAll('.left a')
 var headerLength = header.clientHeight;
 
+var img_1 = document.querySelector(".img_1");
+var img_2 = document.querySelector(".img_2");
+var img_3 = document.querySelector(".img_3");
+
 document.addEventListener('scroll', function (){
     if (window.scrollY > headerLength) {
         header.classList.add('fix');
-        header.classList.add('change');
+        img_1.setAttribute("src", "image/instagram_1.svg");
+        img_2.setAttribute("src", "image/facebook_1.svg");
+        img_3.setAttribute("src", "image/youtube_1.svg");
+        
     } else {
         header.classList.remove('fix');
+        img_1.setAttribute("src", "image/instagram.svg");
+        img_2.setAttribute("src", "image/facebook.svg");
+        img_3.setAttribute("src", "image/youtube.svg");
     }
 })
