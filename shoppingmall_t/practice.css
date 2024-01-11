@@ -1,18 +1,7 @@
-/* 1번째꺼
-h1 {
-    -webkit-animation-duration: 3s;
-    -webkit-animation-name: apple;
+a:link {
+    color: pink;
 }
-@-webkit-keyframes apple {
-    from {
-        color: red;
-        left: 100%;
-        width: 100%;
-    }
-    to {
-        color: blue;
-        left: 0;
-        width: 100%;
-    }
+
+a:visited {
+    color: rgb(236, 12, 49);
 }
-*/

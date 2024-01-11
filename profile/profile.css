@@ -183,9 +183,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease 1s;
 }
 .e_4:hover {
-    transform: rotate(45deg);
+    transform: rotate(720deg);
 }
 .e_4 img {
     width: 25px;
