@@ -184,9 +184,16 @@ main {
     justify-content: center;
     align-items: center;
 }
+.e_4:hover {
+    transform: rotate(45deg);
+}
 .e_4 img {
     width: 25px;
 }
+.e_4 img:hover {
+    cursor: pointer;
+}
+
 
 .fourth_page {
     border-bottom: 10px double black;
@@ -232,6 +239,9 @@ main {
     text-align: center;
     color: white;
     font-size: 14pt;
+}
+.get_in_touch_1 > div:hover {
+    cursor: pointer;
 }
 .get_in_touch_2 {
     display: flex;
