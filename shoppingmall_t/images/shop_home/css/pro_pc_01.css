@@ -1,0 +1,503 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+body {
+    font-size: 10pt;
+    color: #333;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+header {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* 헤더 상단 1행 전체 시작 ---------- */
+.header_box_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+    /* 헤더 상단 1행 (global) - left -------------*/
+    .header_box_all > .header_box_01 {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+
+        #header_box_01_up {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+            line-height: 50px;
+        }
+            #sec_global {
+                position: relative;
+                float: left;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+            }
+                select {
+                    position: relative;
+                    float: left;
+                    width: 100px;
+                    height: 30px;
+                }           
+                option {
+                        width: 50px;
+                        height: 30px;
+                }
+        #ins_icon {
+                position: relative;
+                float: left;
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+        }
+
+        #header_box_01_down {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+
+    /* 헤더 상단 1행 (logo) - center ---------*/
+    .header_box_all > .header_box_02 {
+        position: relative;
+        float: left;
+        width: 600px;
+        height: 100px;
+
+    }
+    /* 헤더 상단 1행 (회원가입) - right ---------*/
+    .header_box_all > .header_box_03 {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+        #header_box_03_up {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+            #txt_join, #txt_id, #txt_basket, #txt_mypage {
+                position: relative;
+                float: left;
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 1rem;
+            }
+
+
+        #header_box_03_down {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+
+
+/*  여백시작 (헤더 상단 1행 다음) -- */
+.gap_1200_10 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: #999;
+}
+
+/* 메인 메뉴 9개 시작 -----------*/
+.main_menu_all {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-between;
+    width: 1400px;
+    height: 30px;
+    margin: 0 auto;
+}
+.main_menu_all #menu_each {
+    width: 120px;
+    height: 30px;
+}
+
+/* Root 경로 시작 ----------------- */
+.path_all {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    background: #eee;
+}
+#path_01 {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+
+/* 상단 상품 이미지와 설명 시작 -----*/
+.pro_top_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 650px;
+    margin: 0 auto;
+}
+    /* 이미지 (좌측) 시작 ---- */
+    .top_box_01 {
+        position: relative;
+        float: left;
+        width: 600px;
+        height: 650px;
+        background-image: url(../img/detail_top_img_01.jpg);
+    }
+    .top_box_02 {
+        position: relative;
+        float: left;
+        width: 20px;
+        height: 650px;
+    }
+    .top_box_03 {
+        position: relative;
+        float: left;
+        width: 780px;
+        height: 650px;
+        font-size: 1.1rem;
+        border-top: 1px solid #333;
+    }
+    #ment_01 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    #ment_02 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 20px;
+        line-height: 20px;
+        color: #f00;
+    }
+    #ment_03 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 40px;
+        line-height: 40px;
+        background: url(../img/line_01.gif);
+        background-repeat: repeat-x;
+        background-position: left center;
+    }
+    #ment_04 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_04_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_04_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+    #ment_05 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_05_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_05_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+
+    #ment_06 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+    }
+    #ment_07 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        background: #fff;
+    }
+        #ment_07_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+        }
+        #ment_07_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            line-height: 50px;
+            top: 5px;
+            text-align: left;
+        }
+    #ment_08 {
+            position: relative;
+            clear: both;
+            width: 780px;
+            height: 50px;
+            line-height: 50px;
+        }
+        #ment_08_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+        }
+        #ment_08_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+            top: 5px;
+        }
+
+    #ment_09 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        background: #fff;
+    }
+    #ment_10 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_10_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_10_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+
+#ment_11 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #ment_12 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_12_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_12_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+#ment_13 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #ment_14 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 36px;
+        line-height: 36px;
+        border-bottom: 1px solid #333;
+    }
+
+/* 상품 자유롭게 제작하는 공간-------------*/
+.detail_free_img {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 3000px;
+    margin-top: 50px;
+}
+    .free_img {
+        position: relative;
+        clear: both;
+        width: 1400px;
+        height: 3000px;
+        margin: 0 auto;
+    }
+        img.d_img_01 {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        img.d_img_02 {
+            position: absolute;
+            left: 500px;
+            top: 700px;
+        }
+        img.d_img_03 {
+            position: absolute;
+            left: 200px;
+            top: 2000px;
+        }
+
+
+/* 수평선 ------------------------------*/
+.line_01 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: url(../img/line_01.gif);
+    background-repeat: repeat-x;
+}
+
+
+/* footer 전체 시작 ---------*/
+.footer_all {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 310px;
+}
+    .footer_box_all {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 1400px;
+        height: 310px;
+        margin: 0 auto;
+    }
+        .footer_box_each {
+            position: relative;
+            float: left;
+            width: 300px;
+            height: 310px;
+        }
+            .footer_box_each > #footer_box_01_01 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 1.2rem;
+                color: #333;
+            }
+            .footer_box_each > #footer_box_01_02 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 10px;
+                line-height: 10px;
+            }
+                #footer_box_01_02 > hr {
+                    width: 100px;
+                }
+            .footer_box_each > #footer_box_01_03 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                font-size: 2rem;
+                color: #333;
+            }
+            .footer_box_each > #footer_box_01_04 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 1.1rem;
+                color: #333;
+            }
+            .footer_box_each > #footer_box_01_05 {
+                position: relatvie;
+                float: left;
+                width: 150px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+
+
+

@@ -1,0 +1,431 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+body {
+    font-size: 10pt;
+    color: #333;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+header {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* 헤더 상단 1행 전체 시작 ---------- */
+.header_box_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+}
+    /* 헤더 상단 1행 (global) - left -------------*/
+    .header_box_all > .header_box_01 {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+
+        #header_box_01_up {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+            line-height: 50px;
+        }
+            #sec_global {
+                position: relative;
+                float: left;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+            }
+                select {
+                    position: relative;
+                    float: left;
+                    width: 100px;
+                    height: 30px;
+                }           
+                option {
+                        width: 50px;
+                        height: 30px;
+                }
+        #ins_icon {
+                position: relative;
+                float: left;
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+        }
+
+        #header_box_01_down {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+
+    /* 헤더 상단 1행 (logo) - center ---------*/
+    .header_box_all > .header_box_02 {
+        position: relative;
+        float: left;
+        width: 600px;
+        height: 100px;
+
+    }
+    /* 헤더 상단 1행 (회원가입) - right ---------*/
+    .header_box_all > .header_box_03 {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+        #header_box_03_up {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+            #txt_join, #txt_id, #txt_basket, #txt_mypage {
+                position: relative;
+                float: left;
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 1rem;
+            }
+
+
+        #header_box_03_down {
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+
+
+/* 헤더 상단 1행 다음 1번째 여백시작 -- */
+.gap_1200_10 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: #999;
+}
+
+/* 메인 메뉴 9개 시작 -----------*/
+.main_menu_all {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-between;
+    width: 1400px;
+    height: 30px;
+    margin: 0 auto;
+}
+.main_menu_all #menu_each {
+    width: 120px;
+    height: 30px;
+}
+
+/* 헤더 상단 1행 다음 2번째 여백시작 -- */
+.gap_1200_10 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+
+/* 메인 이미지 (main_title_img) 시작 -- */
+.main_img_big {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+#main_img_only {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: auto;
+}
+
+/* 여백 (w:1200, h:80)은 표시 ----- */
+.gap_1200_80 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 80px;
+    background: #999;
+    margin: 0 auto;
+}
+/* 여백 (w:340, h:10)은 숨김 ----*/
+.gap_m_340_10 {
+    display: none;
+}
+
+
+/* 상단 이미지 4개 시작-------------------- */
+
+.sec_01_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 340px;
+    margin: 0 auto;
+}
+    .sec_01_all > .sec_01_box_all {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 1400px;
+        height: 340px;
+    }
+        .sec_01_box_all > #sec_01_box_each {
+            display: flex;
+            flex-flow: row wrap;
+            width: 340px;
+            height: 340px;
+        }
+            .sec_01_box_all #sec_01_box_img{
+                width: 340px;
+                height: 280px;
+            }
+            .sec_01_box_all #sec_01_font_01 {
+                width: 340px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 1.4rem;
+                color: #333;
+            }
+            .sec_01_box_all #sec_01_font_02 {
+                width: 340px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 1rem;
+                color: #333;
+            }
+
+
+/* WEEKLY BEST 제목 시작 ------------- */
+.title_weekly {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px auto 30px;
+    background: #ddd;
+}
+
+
+
+
+/* 상품 시작 ------------- */
+
+section.product_row_all {
+    display: flex;  
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+    .product_row_all > .product_col_each {
+        position: relative;
+        float: left;
+        width: 340px;
+        height: 450px;
+    }
+
+    .product_row_all > .product_col_each {
+        position: relative;
+        clear:  both;
+        width: 340px;
+        height: 450px;
+    }
+        .product_col_each > #p_box_img {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 340px;
+        }
+        .product_col_each > #p_box_font_all {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 110px;
+        }
+
+            #p_box_font_all > #p_box_color  {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 20px;
+            }
+            #p_box_font_all > #p_box_font_01 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 1rem;
+                font-weight: bold;
+                background: #eee;
+            }
+            #p_box_font_all > #p_box_font_02 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 0.7rem;
+                color: #f00;
+            }
+            #p_box_font_all > #p_box_font_03 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 1.1rem;
+                font-weight: bold;
+                color: #333;
+            }
+            #p_box_font_all > #p_box_font_04 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 1.1rem;
+                font-weight: bold;
+                color: #333;
+            }
+
+
+
+/* 여백 (m_gap_100_20): 교체 ----- */
+.m_gap_100_20 {
+    display: none;
+}
+
+/* 중간 이미지 시작 ------*/
+section.middle_img {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 500px;
+    margin: 50px 0px;
+    background: #ddd;
+}
+.middle_img > #middle_img_each {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* 수평선 ------------------------------*/
+.line_01 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: url(../img/line_01.gif);
+    background-repeat: repeat-x;
+}
+
+/* footer 전체 시작 ---------*/
+.footer_all {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 310px;
+}
+    .footer_box_all {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 1400px;
+        height: 310px;
+        margin: 0 auto;
+    }
+        .footer_box_each {
+            position: relative;
+            float: left;
+            width: 300px;
+            height: 310px;
+        }
+            .footer_box_each > #footer_box_01_01 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 1.2rem;
+                color: #333;
+            }
+            .footer_box_each > #footer_box_01_02 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 10px;
+                line-height: 10px;
+            }
+                #footer_box_01_02 > hr {
+                    width: 100px;
+                }
+            .footer_box_each > #footer_box_01_03 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                font-size: 2rem;
+                color: #333;
+            }
+            .footer_box_each > #footer_box_01_04 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 1.1rem;
+                color: #333;
+            }
+            .footer_box_each > #footer_box_01_05 {
+                position: relatvie;
+                float: left;
+                width: 150px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+
+
+
+
+
+
+
+
+
+

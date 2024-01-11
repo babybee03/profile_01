@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 10pt;
+    color: #333;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+header {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.header_box_01 {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+#header_box_01_up {
+    position: relative;
+    clear: both;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+}
+#sec_global {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+select {
+    position: relative;
+    float:left;
+    width: 100px;
+    height: 30px;
+}
+option {
+    width: 50px;
+    height: 30px;
+}
+#ins_all {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#ins_icon {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+#header_box_01_down {
+    position: relative;
+    clear: both;
+    width: 400px;
+    height: 50px;
+}
+.header_box_all > .header_box_02 {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 100px;
+}
+.header_box_all > .header_box_03 {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+#header_box_03_up {
+    position: relative;
+    clear: both;
+    width: 400px;
+    height: 50px;
+}
+#txt_join, #txt_id, #txt_basket, #txt_mypage {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+#header_box_03_down {
+    position: relative;
+    clear: both;
+    width: 400px;
+    height: 50px;
+}
+.gap_1400_10 {
+    position: relative;
+    clear:both;
+    width: 100%;
+    height: 10px;
+    background: #999;
+}
+.main_menu_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.main_menu_all #menu_each {
+    width: 140px;
+    height: 30px;
+}
+#menu_01_over:hover {
+    content: url();
+}
+.gap_1200_10 {
+    position: relative;
+    clear: both;
+}
+.main_img_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+.main_img_big {
+    display: block;
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 1400px;
+    height: 600px;
+}
+.main_img_small {
+    display: none;
+}
+.gap_1400_80 {
+    display: block;
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 80px;
+    background: #999;
+    margin: 0 auto;
+}
+.gap_m_340_10 {
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-size: 10pt;
+        color: #333;
+    }
+    header {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 130px;
+        margin: 0 auto;
+        background: #333;
+    }
+    .header_box_all {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 130px;
+        background: #ddd;
+    }
+    .header_box_all > .header_box_01 {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 50px;
+        line-height: 50px;
+        top: 10px;
+    }
+    #header_box_01_up {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 30px;
+    }
+    #sec_global {
+        position: relative;
+        float: left;
+        width: 170px;
+        height: 30px;
+        line-height: 30px;
+    }
+    select {
+        position: relative;
+        float:left;
+        width: 100px;
+        height: 30px;
+    }
+    option {
+        width: 50px;
+        height: 30px;
+       
+    }
+    #ins_all {
+        position: relative;
+        float: left;
+        width: 170px;
+        height: 30px;
+    }
+    #ins_icon {
+        position: relative;
+        float: right;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    #header_box_01_down {
+        display: none;
+    }
+    .header_box_all > .header_box_02 {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 50px;
+    }
+    .header_box_all > .header_box_03 {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 30px;
+        background: #f60;
+    }
+    #header_box_03_up {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 30px;
+    }
+    #txt_join, #txt_id, #txt_basket, #txt_mypage {
+        position: relative;
+        float: left;
+        width: 85px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    #header_box_03_down {
+        display: none;
+    }
+    .gap_1400_10 {
+        display: none;
+    }
+    .main_menu_all {
+        display: flex;
+        flex-flow: row wrap;
+        width: 340px;
+        height: 90px;
+        margin: 0 auto;
+    }
+    .main_menu_all #menu_each {
+        width: 110px;
+    }
+    #menu_01_over:hover {
+        content: url(images/img/main_menu_02.jpg);
+    }
+    .gap_1400_10 {
+        display: none;
+    }
+
+   /*메인 이미지 시작*/
+   .main_img_all {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    margin: 0 auto;
+   }
+   .main_img_big {
+    display: none;
+   }
+   .main_img_small {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 340px;
+    height: 340px;
+    margin-top: 10px;
+    z-index: 2;
+
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: m_01;
+    -webkit-animation-iteration-count: 1;
+   }
+   @-webkit-keyframes m_01 {
+    0% {left: 50px; top: 50px; opacity: 50%;}
+    100% {left: 0px; top: 0px; opacity: 100%;}
+   }
+   .gap_1400_80 {
+    display: none;
+   }
+   .gap_m_340_10 {
+    display: block;
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+   }
+}
