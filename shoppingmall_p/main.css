@@ -96,6 +96,7 @@ body, html {
     width: 100%;
 }
 .sub_image_2_scroll {
+    width: 500px;
     height: 550px;
 }
 .today_text {
@@ -161,7 +162,7 @@ body, html {
     'back_1 c_1 c_2 c_3 front_1'
     'back_1 c_4 c_5 c_6 front_1';
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 420px 420px;
+    grid-template-rows: 500px 500px;
 }
 .pick_3_img img {
     width: 95%;
@@ -186,11 +187,15 @@ body, html {
 #c_6 {
     grid-area: c_6;
 }
+.black {
+    
+}
 .best_items {
     width: 100%;
 }
 .best_1 {
     text-align: center;
+    
 }
 .best_2 {
     display: grid;

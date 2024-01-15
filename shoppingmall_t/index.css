@@ -205,7 +205,164 @@ section.sec_01_all {
     font-weight: bold;
     text-align: center;
 }
+/*WEEKLY BEST 제목 시작*/
+.title_weekly {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px auto 30px;
+    background: #ddd;
+}
+/*상품시작---------------------*/
+section.product_row_all {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+}
 
+.product_row_all > .product_col_each {
+    position: relative;
+    float: left;
+    width: 340px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.product_col_each > #p_box_img {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 340px;
+}
+.product_col_each > #p_box_font_all {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 110px;
+}
+#p_box_font_all > #p_box_color {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+}
+#p_box_font_all > #p_box_font_01 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_02 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    color: #f00;
+}
+#p_box_font_all > #p_box_font_03 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+#p_box_font_all > #p_box_font_04 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.middle_img {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 500px;
+    margin: 50px auto;
+}
+section.product_row_all {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+}
+.product_row_all > .product_col_each {
+    position: relative;
+    float: left;
+    width: 340px;
+    height: 450px;
+}
+.product_col_each > #p_box_img {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 340px;
+}
+#p_box_font_all > #p_box_color {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+}
+#p_box_font_all > #p_box_font_01 {
+    position: relative;
+    width: 340px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_02 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    color: #f00;
+}
+#p_box_font_all > #p_box_font_03 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+#p_box_font_all > #p_box_font_04 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
 @media all and (max-width: 800px) {
     * {
         margin: 0;
@@ -414,4 +571,166 @@ section.sec_01_all {
     line-height: 30px;
     font-size: 1rem;
    }
+   .title_weekly {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 50px;
+    color: #333;
+    font-size: 1.5rem;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background: #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section.product_row_all {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 340px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+.product_row_all > .product_col_each {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.product_col_each > #p_box_font_all {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 110px;
+}
+#p_box_font_all > #p_box_color {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+}
+#p_box_font_all > #p_box_font_01 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_02 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    color: #f00;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_03 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_04 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.middle_img {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 250px;
+    margin: 50px auto;
+}
+
+section.product_row_all {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 340px;
+    height: 1800px;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+.product_row_all > .product_col_each {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 450px;
+}
+.product_col_each > #p_box_img {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 340px;
+}
+.product_col_each > #p_box_font_all {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 110px;
+}
+#p_box_font_all > #p_box_color {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+}
+#p_box_font_all > #p_box_font_01 {
+    position: relative;
+    width: 340px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_02 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    color: #f00;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_03 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    background: #eee;
+}
+#p_box_font_all > #p_box_font_04 {
+    position: relative;
+    clear: both;
+    width: 340px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
 }
