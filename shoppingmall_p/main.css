@@ -96,8 +96,9 @@ body, html {
     width: 100%;
 }
 .sub_image_2_scroll {
-    width: 500px;
+    width: 100%;
     height: 550px;
+    
 }
 .today_text {
    text-align: center;
@@ -122,6 +123,7 @@ body, html {
     height: 8px;
 }
 .sub_image_2_scroll img {
+    width: 280px;
     height: 340px;
 }
 .today_2 {
@@ -187,9 +189,7 @@ body, html {
 #c_6 {
     grid-area: c_6;
 }
-.black {
-    
-}
+
 .best_items {
     width: 100%;
 }
@@ -203,16 +203,24 @@ body, html {
     'back_2 d_1 d_2 d_3 d_4 front_2' 
     'back_2 d_5 d_6 d_7 d_8 front_2';
     grid-template-columns: 10% 20% 20% 20% 20% 10%;
-    grid-template-rows: 370px 370px;
+    grid-template-rows: 500px 500px;
 }
 .best_2 > div {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    font-size: 10pt;
+}
+.best_2  span {
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    width: 20px;
+    height: 8px;
 }
 .best_2 img {
     height: 335px;
     width: 95%;
 }
+
 #d_1 {
     grid-area: d_1;
 }
@@ -236,4 +244,10 @@ body, html {
 }
 #d_8 {
     grid-area: d_8;
+}
+
+@media all and (max-width: 1200px) {
+    .category {
+        display: none;
+    }
 }
