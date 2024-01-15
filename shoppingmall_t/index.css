@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-size: 10pt;
     color: #333;
 }
+
 ul, ol, li {
     list-style: none;
 }
@@ -224,7 +226,6 @@ section.product_row_all {
     flex-flow: row nowrap;
     justify-content: space-between;
     width: 1400px;
-    height: 480px;
     margin: 0 auto;
 }
 
@@ -304,7 +305,6 @@ section.product_row_all {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 1400px;
-    height: 480px;
     margin: 0 auto;
 }
 .product_row_all > .product_col_each {
@@ -724,7 +724,6 @@ section.product_row_all {
     display: flex;
     flex-flow: column nowrap;
     width: 340px;
-    height: 1800px;
     margin: 0 auto;
     border: 1px solid #333;
 }
