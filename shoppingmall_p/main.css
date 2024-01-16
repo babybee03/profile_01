@@ -302,9 +302,50 @@ body, html {
 .new {
     width: 100%;
 }
-.new > div {
-    width: 100%;
+.new_1, .new_2 {
+    text-align: center;
 }
+.new_3 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 500px 500px;
+    gap: 20px;
+    justify-content: center;
+}
+.new_3 span {
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    width: 20px;
+    height: 8px;
+} 
+.new_3 img {
+    width: 100%;
+    height: 335px;
+    object-fit: cover;
+}
+.new_3_good {
+    font-size: 10pt;
+    font-weight: 700;
+}
+.new_3_price {
+    font-size: 11pt;
+    font-weight: 700;
+    color: rgb(70, 0, 128);
+}
+.new_3_price del {
+    font-size: 9pt;
+    color: black;
+}
+.new_3_free {
+    font-size: 9.5pt;
+    color: rgb(70, 0, 128);
+    font-weight: 700;
+}
+.new_3_description {
+    font-size: 9pt;
+    color: rgb(87, 87, 87);
+}
+
 
 @media all and (max-width: 1200px) {
     .category {
