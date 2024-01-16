@@ -98,7 +98,6 @@ body, html {
 .sub_image_2_scroll {
     width: 100%;
     height: 550px;
-    
 }
 .today_text {
    text-align: center;
@@ -108,11 +107,12 @@ body, html {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 290px;
 }
 .today {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     padding: 0 50px;
     
 }
@@ -123,14 +123,16 @@ body, html {
     height: 8px;
 }
 .sub_image_2_scroll img {
-    width: 280px;
+    width: 290px;
     height: 340px;
 }
 .today_2 {
     padding: 10px 0;
+    font-size: 10pt;
 }
 .today_3 {
     padding: 10px 0;
+    font-size: 10pt;
 }
 .md_pick {
     width: 100%;
@@ -163,14 +165,44 @@ body, html {
     grid-template-areas:
     'back_1 c_1 c_2 c_3 front_1'
     'back_1 c_4 c_5 c_6 front_1';
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 500px 500px;
+    grid-template-columns: auto 25% 25% 25% auto;
+    grid-template-rows: 400px 400px;
+    font-size: 9pt;
+    position: relative;
+    gap: 15px;
 }
-.pick_3_img img {
-    width: 95%;
+.pick_3_img > div {
+    position: relative;
+}
+.pick_3_blackbox:hover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0, 0.3);
+    z-index: 2;
+}
+.pick_3_img_good {
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+    z-index: 3;
+}
+.pick_3_img_price {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    z-index: 3;
+}
+.pick_3_img_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 400px;
-    object-fit: cover;
+    background-size: cover;   
 }
+
 #c_1 {
     grid-area: c_1;
 }
@@ -202,13 +234,13 @@ body, html {
     grid-template-areas: 
     'back_2 d_1 d_2 d_3 d_4 front_2' 
     'back_2 d_5 d_6 d_7 d_8 front_2';
-    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-columns: auto 20% 20% 20% 20% auto;
     grid-template-rows: 500px 500px;
+    gap: 20px;
 }
 .best_2 > div {
     display: flex;
     flex-direction: column;
-    font-size: 10pt;
 }
 .best_2  span {
     display: inline-block;
@@ -218,9 +250,31 @@ body, html {
 }
 .best_2 img {
     height: 335px;
-    width: 95%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
 }
-
+.best_2_good {
+    font-size: 10pt;
+    font-weight: 700;
+}
+.best_2_price {
+    font-size: 11pt;
+    font-weight: 700;
+    color: rgb(70, 0, 128);
+}
+.best_2_price del {
+    font-size: 9pt;
+    color: black;
+}
+.best_2_delivery {
+    font-size: 11pt;
+    font-weight: 700;
+}
+.best_2_description {
+    font-size: 9pt;
+    color: rgb(87, 87, 87);
+}
 #d_1 {
     grid-area: d_1;
 }
@@ -244,6 +298,12 @@ body, html {
 }
 #d_8 {
     grid-area: d_8;
+}
+.new {
+    width: 100%;
+}
+.new > div {
+    width: 100%;
 }
 
 @media all and (max-width: 1200px) {
