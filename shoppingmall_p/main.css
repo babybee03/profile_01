@@ -174,33 +174,42 @@ body, html {
 .pick_3_img > div {
     position: relative;
 }
-.pick_3_blackbox:hover {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
+
+.pick_3_blackbox {
     background-color: rgba(0,0,0, 0.3);
     z-index: 2;
-}
-.pick_3_img_good {
     position: absolute;
-    bottom: 40px;
-    left: 5px;
-    z-index: 3;
+    display: none;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 2;
+    text-align: left;
+    padding: 8px;
+    color: white;
 }
-.pick_3_img_price {
-    position: absolute;
-    bottom: 15px;
-    left: 5px;
-    z-index: 3;
+
+.pick_3_img_img:hover .pick_3_blackbox {
+    display: block;
 }
+
 .pick_3_img_img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 400px;
-    background-size: cover;   
+    background-size: cover;
+    cursor: pointer;
+}
+
+.pick_3_img_good {
+    font-weight: bold;
+}
+
+
+.pick_3_img_price {
+    font-weight: 400;
 }
 
 #c_1 {
@@ -257,6 +266,9 @@ body, html {
 .best_2_good {
     font-size: 10pt;
     font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .best_2_price {
     font-size: 11pt;
