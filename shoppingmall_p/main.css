@@ -18,11 +18,12 @@ body, html {
     background-color: #60469f;
 }
 .mebership_menu {
-    font-size: 8pt;
+    font-size: 7pt;
     display: flex;
     justify-content: end;
     padding: 0 50px;
     height: 38px;
+    color: rgb(83, 83, 83);
 }
 .mebership_menu li {
     list-style: none;
@@ -72,7 +73,9 @@ body, html {
     font-weight: 700;
     color: rgb(83, 83, 83);
 }
-
+.category_1, .category_2, .category_3, .category_4, .category_5  > div {
+    display: none;
+}
 .goods {
     display: flex;
     flex-direction: column;
@@ -208,8 +211,10 @@ body, html {
     width: 100%;
     z-index: 2;
     text-align: left;
-    padding: 8px;
-    color: white;
+    color: white;   
+}
+.pick_3_blackbox > div {
+    padding: 10px 0 0 10px;
 }
 
 .pick_3_img_img:hover .pick_3_blackbox {
