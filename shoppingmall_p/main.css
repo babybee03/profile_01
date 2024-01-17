@@ -73,7 +73,32 @@ body, html {
     font-weight: 700;
     color: rgb(83, 83, 83);
 }
-.category_1, .category_2, .category_3, .category_4, .category_5  > div {
+.category > div {
+    cursor: pointer;
+}
+.category > div:hover {
+    cursor: pointer;
+    color: rgb(197, 176, 176);
+}
+.category_1 {
+    position: relative;
+    
+}
+.category_1 > div {
+    position: absolute;
+    width: 100px;
+    color: rgb(83, 83, 83);
+}
+.category_1 > div > div {
+    background-color: pink;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.category_1 > div > div:hover {
+    background-color: rgb(255, 171, 185);
+}
+.category_2, .category_3, .category_4, .category_5  > div {
     display: none;
 }
 .goods {
@@ -81,13 +106,6 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.category > div {
-    cursor: pointer;
-}
-.category > div:hover {
-    cursor: pointer;
-    color: rgb(197, 176, 176);
 }
 
 .main_image_scroll > img {
@@ -428,7 +446,5 @@ footer {
     
 }
 @media all and (max-width: 1200px) {
-    .category {
-        display: none;
-    }
+    
 }
