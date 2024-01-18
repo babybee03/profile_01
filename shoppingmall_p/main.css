@@ -1,3 +1,25 @@
+::-webkit-scrollbar {
+    width: 20px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+    display:none;
+    background-color: #e86ae8;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 100px;
+    background: #a864a8;
+    border: 5px solid black;
+    -webkit-border-radius: 0px;
+    border-radius: 9px;
+}
+
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
@@ -72,7 +94,6 @@ body, html {
     gap: 30px;
     font-weight: 700;
     color: rgb(83, 83, 83);
-    overflow: hidden;
 }
 .category > div {
     cursor: pointer;
@@ -88,11 +109,12 @@ body, html {
 .category_1 > div {
     position: absolute;
     width: 110px;
-    top: 37px;
+    top: 18px;
     color: rgb(83, 83, 83);
-    
+    display: none;
+    z-index: 2;
 }
-.category_1:hover{
+.category_1:hover > div{
     display: block;
 }
 .category_1 > div > div {
