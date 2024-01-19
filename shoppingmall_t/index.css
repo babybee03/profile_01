@@ -377,6 +377,9 @@ section.product_row_all {
     line-height: 30px;
     font-size: 1.2rem;
     color: #333;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    text-align: center;
 }
 .footer_box_each > .footer_box_01_02 {
     position: relative;
