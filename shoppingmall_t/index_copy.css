@@ -415,17 +415,6 @@ section.product_row_all {
     text-align: center;
     margin-top: 20px;
 }
-.footer_right {
-    display: flex;
-    gap: 50px;
-}
-.footer_right div {
-    font-size: 10pt!important;
-}
-.bbs_01 {
-    width:1300px;
-    margin: 0 auto;
-}
 @media all and (max-width: 800px) {
     * {
         margin: 0;

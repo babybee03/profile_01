@@ -1,21 +1,19 @@
 ::-webkit-scrollbar {
-    width: 20px;
-    background-color: transparent;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-button {
     display:none;
-    background-color: #e86ae8;
 }
 
 ::-webkit-scrollbar-track {
-    background: black;
+    background:  #d5c3ff;
 }
 
 ::-webkit-scrollbar-thumb {
     height: 100px;
-    background: #a864a8;
-    border: 5px solid black;
+    background:  #60469f;
+    border: 3px solid  #d5c3ff;
     -webkit-border-radius: 0px;
     border-radius: 9px;
 }
