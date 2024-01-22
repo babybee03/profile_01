@@ -1,0 +1,416 @@
+@font-face {
+    font-family: 'SOGANGUNIVERSITYTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SOGANGUNIVERSITYTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*새로 시작==========================*/
+.path_all {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    background: #eee;
+}
+#path_01 {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+.pro_top_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    margin: 0 auto;
+}
+.top_box_01 {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 650px;
+    background: url();
+}
+.top_box_02 {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 650px;
+}
+.top_box_03 {
+    position: relative;
+    float: left;
+    width: 780px;
+    height: 700px;
+    font-size: 1.5em;
+    border-top: 1px solid #333;
+}
+#ment_01 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#ment_02 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 20px;
+    line-height: 20px;
+    color: #f00;
+}
+#ment_03 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 40px;
+    line-height: 40px;
+    background: url();
+    background-repeat: repeat-x;
+    background-position: left center;
+}
+#ment_04 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_04_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+#ment_04_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    text-align: left;
+}
+#ment_05 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_05_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+#ment_05_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    text-align: left;
+}
+#ment_06 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 48px;
+    line-height: 48px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+#ment_07 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+    background:#fff;
+}
+#ment_07_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+}
+#ment_07_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    top: 5px;
+    text-align: left;
+}
+#ment_07_02 > select {
+    width: 200px;
+    height: 30px;
+    background: #ddd;
+}
+#ment_08 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_08_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+}
+#ment_08_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    top: 5px;
+    text-align: left;
+}
+#ment_08_02 > select {
+    width: 200px;
+    height: 30px;
+    background: #ddd;
+}
+#ment_09 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+    background: url();
+    background-repeat: repeat-x;
+    background-position: left center;
+}
+#ment_10 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_10_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+#ment_10_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    text-align: left;
+}
+#ment_11 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_11_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+#ment_11_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    text-align: left;
+}
+#ment_11_02 img {
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+}
+#ment_12 {
+    position: relative;
+    clear: both;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_12_01 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+#ment_12_02 {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_13 {
+    position: relative;
+    clear: both;
+    width: 750px;
+    height: 50px;
+    line-height: 50px;
+}
+#ment_13_01 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    transition: all 1s;
+}
+#ment_13_01:hover {
+    border: 1px solid #333;
+}
+#ment_13_02 {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 48px;
+    text-align: center;
+    font-size: 10pt;
+    background: #000;
+    color: #fff;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    transition: all 1s;
+}
+#ment_13_02:hover {
+    color: #333;
+    background: #fff;
+    border: 1px solid #333;
+}
+#ment_13_03 {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #ddd;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    transition: all 1s;
+    font-size: 10pt;
+}
+#ment_13_03:hover {
+    color: #333;
+    background: #fff;
+    width: 200px;
+    height: 48px;
+    border: 1px solid #333;
+}
+.detail_free_img {
+    position: relative;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+}
+.free_img {
+text-align: center;
+}
+.line_01 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background: url();
+    background-repeat: repeat-x;
+}
+.fit_size {
+    font-size: 15pt;
+    font-weight: 700;
+}
+/*footer 전체 시작------------*/
+.footer_all {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 310px;
+}
+.footer_box_all {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+    height: 310px;
+    margin: 0 auto;
+}
+.footer_box_each {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 310px;
+    text-align: center;
+}
+.footer_box_each > #footer_box_01_01 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: #333;
+}
+.footer_box_each > #footer_box_01_02 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+    line-height: 10px;
+}
+#footer_box_01_02 > hr {
+    width: 100px;
+}
+.footer_box_each > #footer_box_01_03 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2rem;
+    color: #333;
+}
+.footer_box_each > #footer_box_01_04 {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.1rem;
+    color: #333;
+}
+.footer_box_each > #footer_box_01_05 {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+}
