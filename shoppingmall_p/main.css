@@ -38,6 +38,7 @@ body, html {
     width: 100%;
     height: 40px;
     background-color: #60469f;
+    overflow: hidden;
 }
 .move {
     position: absolute;
