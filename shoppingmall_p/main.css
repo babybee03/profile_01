@@ -728,6 +728,6 @@ footer {
         width: 460px;
         text-align: end;
         line-height: 17pt;
-        padding: 50px 10px 50px 10px;
+        padding: 0;
     }
 }
