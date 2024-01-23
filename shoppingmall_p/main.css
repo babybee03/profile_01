@@ -635,10 +635,10 @@ footer {
     .footer_right {
         margin: 0 auto;
         float: right;
-        width: 600px;
+        width: 500px;
         text-align: end;
         line-height: 17pt;
-        padding: 50px 50px 50px 50px;
+        padding: 0;
     }
     .company_tel {
         display: flex;
@@ -654,6 +654,9 @@ footer {
 
 
 @media all and (max-width: 660px) {
+    .search{
+        display: none;
+    }
     .pick_3_img {
         display: grid;
         grid-template-columns: 100px 100px 100px;
@@ -725,7 +728,7 @@ footer {
     .footer_right {
         margin: 0 auto;
         float: right;
-        width: 460px;
+        width: 435px;
         text-align: end;
         line-height: 17pt;
         padding: 0;
