@@ -91,7 +91,7 @@ animation-delay: 35s;
 }
 .mebership_menu li {
     list-style: none;
-    display: inline-block;
+    float: left;
     padding: 0 7px;
     cursor: pointer;
 }
@@ -127,16 +127,33 @@ animation-delay: 35s;
     grid-area: search;
     padding:50px 0;
 }
+.search_window {
+    width: 120px;
+    
+}
 .search input {
     background-color: #ececec;
     border: none;
-    width: 150px;
-    height: 30px;
+    width: 90px;
+    height: 20px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    float: left;
+    outline: none;
 }
 .search button {
     background-color: rgb(235, 226, 226);
     border: none;
-    height: 30px;
+    width: 30px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    float: right;
+    background-color: #60469f;
+    outline: none;
+    color: white;
+    font-size: 8pt;
+    cursor: pointer;
 }
 .shoppingbag {
     position: relative;
