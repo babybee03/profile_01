@@ -100,3 +100,91 @@
     border: 1px solid #ddd;
     border-radius: 10px;
 }
+.inventory_info > div:first-child {
+    background-color: rgb(236, 236, 236);
+    width: 90%;
+    margin: 20px auto 0;
+    font-size: 9pt;
+    color: rgb(82, 82, 82);
+    padding-left: 10px;
+}
+.inventory_info > div:nth-child(2) {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 9pt;
+    color: rgb(82, 82, 82);
+}
+.shopping_from_sns {
+    width: 700px;
+    border-top: 2px solid black;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+}
+.sns_left {
+    display: flex;
+    gap: 10px;
+}
+.sns_left > div:first-child {
+    width: 70px;
+}
+.sns_left > div:nth-child(2) {
+    width: 70px;
+    background-color: #fee500;
+    border: 1px solid #ddd;
+}
+.sns_left > div:nth-child(3) {
+    width: 40px;
+    background-color: #fee500;
+    border: 1px solid #ddd;
+}
+.sns_left > div:nth-child(4) {
+    width: 40px;
+    border: 1px solid #ddd;
+}
+.sns_right {
+    display: flex;
+    gap: 10px;
+    
+}
+.sns_right > div:nth-child(2) {
+    width: 70px;
+    background-color: #00de5a;
+    border: 1px solid #ddd;
+}
+.sns_right > div:nth-child(3) {
+    width: 40px;
+    border: 1px solid #ddd;
+}
+.sns_right > div:nth-child(4) {
+    width: 40px;
+    border: 1px solid #ddd;
+}
+.pay_ad {
+    width: 700px;
+    display: flex;
+    font-size: 9pt;
+    justify-content: space-between;
+}
+.pay_ad_right {
+    display: flex;
+}
+.detail_menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 10pt;
+    margin: 30px 0;
+}
+.detail_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
