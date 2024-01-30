@@ -26,6 +26,16 @@ header {
     padding: 0 15px;
     z-index: 10;
 }
+.address{
+    position: absolute;
+    top: 440px;
+    right: 200px;
+    font-size: 9pt;
+}
+.address > a {
+    text-decoration: none;
+    color: black;
+}
 .fix {
     background-color: black;
 }
@@ -42,7 +52,6 @@ header {
     display: flex;
     gap: 20px;
 }
-
 .left > div {
     font-size: 15pt;
 }

@@ -4,6 +4,9 @@
         font-size: 120px;
         top: 218px;
     }
+    .address{
+        display: none;
+    }
 }
 @media all and (max-width: 800px) {
     
