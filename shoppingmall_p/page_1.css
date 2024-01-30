@@ -1,23 +1,30 @@
+.clothes {
+    display: flex;
+    flex-direction: column;
+}
 .bear {
-    width: 100%;
+    display: flex;
+    width:1800px;
     height: 30px;
     color: black;
-    text-align: end;
-    padding-right: 20px;
+    justify-content: end;
     line-height: 30px;
+    margin: 0 auto;
+    color: rgb(133, 133, 133);
+    padding: 20px 0 70px 0;
 }
 .clothes_shot {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 .clothes_shot img {
-    width: 400px;
+    width: 600px;
 }
 .clothes_explanation {
     display: flex;
     flex-direction: column;
-    width: 800px;
-    padding: 0 15px;
+    width: 700px; 
 }
 .clothes_explanation > div:first-child {
     font-weight: 700;
@@ -51,6 +58,9 @@
     color: #5b5b5b;
     border-radius: 10px;
     cursor: pointer;
+}
+.button_set {
+    width: 700px;
 }
 .button_2 {
     width: 500px;
@@ -184,7 +194,59 @@
 }
 .detail_info {
     display: flex;
+    gap: 50px;
     flex-direction: column;
     align-items: center;
-    
+}
+.detail_info div:nth-child(3) {
+    padding-bottom: 110px;
+    text-align: center;
+}
+.detail_info div:nth-child(7) {
+    text-align: center;
+}
+@media all and (max-width: 1800px) {
+    .bear {
+        width: 97%;
+        font-size: 10pt;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    .clothes_shot {
+        gap: 70px;
+    }
+    .clothes_shot img {
+        width: 500px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .clothes_shot {
+        gap: 40px;
+    }
+    .clothes_shot img {
+        width: 400px;
+    }
+    .clothes_explanation {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .button_1 {
+        width: 100%;
+    }
+    .button_set {
+        width: 100%;
+        
+    }
+    .button_2 {
+        width: 70%; 
+    }
+    .button_3 {
+        width: 50px;
+    }
+    .button_4 {
+        width: 50px; 
+    }
 }

@@ -284,6 +284,10 @@ animation-delay: 35s;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.today_2 a {
+    text-decoration: none;
+    color: black;
+}
 .today_3 {
     padding: 5px 0;
     font-size: 9pt;
