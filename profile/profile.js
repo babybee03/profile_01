@@ -1,10 +1,28 @@
 var menu_all = document.querySelector(".menu_all");
 var phone_menu = document.querySelector('.phone_menu');
 var main = document.querySelector('main');
+var second = document.querySelector("#second");
+var third = document.querySelector("#third");
+var fourth = document.querySelector("#fourth");
+var fifth = document.querySelector("#fifth");
+
+
 phone_menu.addEventListener('click', function(){
     menu_all.classList.toggle('open');
 })
 main.addEventListener('click', function(){
+    menu_all.classList.remove('open');
+})
+second.addEventListener('click', function(){
+    menu_all.classList.remove('open');
+})
+third.addEventListener('click', function(){
+    menu_all.classList.remove('open');
+})
+fourth.addEventListener('click', function(){
+    menu_all.classList.remove('open');
+})
+fifth.addEventListener('click', function(){
     menu_all.classList.remove('open');
 })
 

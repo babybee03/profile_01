@@ -51,8 +51,11 @@
         right: 0;
         width: 150px;
         background-color: black;
-        z-index: 2;
-        
+        z-index: 2;    
+    }
+    .phone_menubar a{
+        text-decoration: none;
+        color: white;
     }
     .phone_menubar > div {
         display: flex;
