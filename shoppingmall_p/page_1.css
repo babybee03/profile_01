@@ -39,7 +39,6 @@
     display: flex;
     font-size: 9pt;
     padding-top: 20px;
-    
 }
 .price_title {
     width: 150px;
@@ -49,7 +48,7 @@
     text-align: end;
 }
 .button_1 {
-    width: 700px;
+    width: 100%;
     height: 50px;
     border: 0;
     background-color: #d5c3ff;;
@@ -58,14 +57,18 @@
     color: #5b5b5b;
     border-radius: 10px;
     cursor: pointer;
+    margin: 10px 0;
 }
 .button_set {
-    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 10px;
 }
 .button_2 {
-    width: 500px;
+    width: 83%;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid #707070;
     background-color: white;
     font-size: 13pt;
     font-weight: 700;
@@ -76,7 +79,7 @@
 .button_3 {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid #707070;
     background-color: white;
     font-size: 13pt;
     font-weight: 700;
@@ -84,39 +87,55 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.button_3 span {
+    text-align: center;
+    line-height: 50px;
+}
 .button_4 {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid #707070;
     background-color: white;
     font-size: 13pt;
     font-weight: 700;
     color: #5b5b5b;
     border-radius: 10px;
     cursor: pointer;
+}
+.button_4 span {
+    text-align: center;
+    line-height: 50px;
+}
+.inventory {
+    width: 100%;
+    margin-bottom: 15px;
 }
 .inventory_check {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    width: 700px;
+    width: 100%;
     height: 50px;
     border: 1px solid #ddd;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .inventory_info {
-    width: 700px;
+    width: 100%;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    
 }
 .inventory_info > div:first-child {
-    background-color: rgb(236, 236, 236);
+    background-color: #f5f5f5;
     width: 90%;
     margin: 20px auto 0;
-    font-size: 9pt;
+    font-size: 8pt;
     color: rgb(82, 82, 82);
     padding-left: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    
 }
 .inventory_info > div:nth-child(2) {
     width: 90%;
@@ -129,13 +148,22 @@
     font-size: 9pt;
     color: rgb(82, 82, 82);
 }
+.pay_card {
+    text-align: center;
+    padding-bottom: 5px;
+}
+.pay_card img {
+    width: 77px;
+}
 .shopping_from_sns {
-    width: 700px;
+    width: 100%;
     border-top: 2px solid black;
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
     font-size: 10pt;
+    padding: 8px 0;
+    margin-bottom: 10px;
 }
 .sns_left {
     display: flex;
@@ -177,13 +205,25 @@
     border: 1px solid #ddd;
 }
 .pay_ad {
-    width: 700px;
+    width: 100%;
     display: flex;
-    font-size: 9pt;
+    font-size: 8pt;
     justify-content: space-between;
+    
 }
 .pay_ad_right {
     display: flex;
+}
+.arrow {
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.arrow span {
+    font-size: 10pt;
+    text-align: center;
+    line-height: 30px;
 }
 .detail_menu {
     display: flex;
@@ -210,6 +250,9 @@
         width: 97%;
         font-size: 10pt;
     }
+    .pay_card img {
+        width: 77px;
+    }
 }
 
 @media all and (max-width: 1500px) {
@@ -218,6 +261,9 @@
     }
     .clothes_shot img {
         width: 500px;
+    }
+    .pay_card img {
+        width: 77px;
     }
 }
 
@@ -235,18 +281,29 @@
     }
     .button_1 {
         width: 100%;
-    }
-    .button_set {
-        width: 100%;
         
     }
+    .button_set {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+    }
     .button_2 {
-        width: 70%; 
+        width: 75%;
     }
     .button_3 {
         width: 50px;
     }
     .button_4 {
         width: 50px; 
+    }
+    .price_box {
+        display: flex;
+        font-size: 9pt;
+        height: 50px;
+    }
+    .pay_card img {
+        width: 77px;
     }
 }
