@@ -1,10 +1,18 @@
+var check = $(".inventory_check");
 
 $(function(){
     $(".expand_down").on("click", function(){
-        $(".inventory_info").css({
-            "display" : "block"
-        })
-    })
+        $(".inventory_info").slideToggle(800);
+        
+        if(check.hasClass("open")) {
+            check.delay(800).queue(function(next){
+                $(this).removeClass("open");
+                next();
+            });
+        } else {
+            check.addClass("open");
+        }
+    });
 })
 
 $(function(){
