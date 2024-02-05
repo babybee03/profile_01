@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="alert">
             <div class="move">[필독] 무통장 입금</div>
             <div class="move">💛무드문 온라인몰 혜택💛</div>
@@ -216,7 +216,7 @@
                 <div class="inventory">
                     <div class="inventory_check">
                         <div>실시간 재고 조회</div>
-                        <div>
+                        <div class="expand_down">
                             <span class="material-symbols-outlined">
                                 expand_more
                             </span>
@@ -268,11 +268,11 @@
             </div>
         </div>
 
-        <div class="detail_menu">
-            <div>상품상세정보</div>
-            <div>쇼핑가이드</div>
-            <div>상품후기<span>12</span></div>
-            <div>상품문의<span>0</span></div>
+        <div class="detail_menu" id="detail_menu">
+            <div><a href="#detail_menu">상품상세정보</a></div>
+            <div><a href="#delivery">쇼핑가이드</a></div>
+            <div><a href="#review">상품후기<span>12</span></a></div>
+            <div><a href="#qna">상품문의<span>0</span></a></div>
         </div>
         <div class="detail_info">
             <div>
@@ -327,13 +327,18 @@
             
         </div>
     </div>
-
-    <div class="delivery">
+    <div class="detail_menu" id="detail_menu">
+        <div><a href="#detail_menu">상품상세정보</a></div>
+        <div><a href="#delivery">쇼핑가이드</a></div>
+        <div><a href="#review">상품후기<span>12</span></a></div>
+        <div><a href="#qna">상품문의<span>0</span></a></div>
+    </div>
+    <div class="delivery" id="delivery">
         <div class="delivery_wrap">
             <div class="delivery_button">
-                <div>배송안내</div>
-                <div>교환 및 반품안내</div>
-                <div>결제안내</div>
+                <div class="delivery_button_1">배송안내</div>
+                <div class="delivery_button_2">교환 및 반품안내</div>
+                <div class="delivery_button_3">결제안내</div>
             </div>
 
             <div class="delivery_way">
@@ -352,10 +357,62 @@
                 <p class="delivery_way_2">-출고가 어려운 상품들의 경우 따로 안내 도와드리고 있으며 영업일 기준 2일 이내에 연락이 없을 경우<br>
                 주문건 취소처리 도와드리고 있습니다.</p>
             </div>
+
+            <div class="exchange_way">
+                <p>💱교환 및 반품안내</p>
+                <p>교환 및 반품안내</p>
+                <p>교환/반품 접수 시 주의사항</p>
+                <p>
+                - 상품 수령일 기준 7일 이내 접수 가능하며, 카카오톡 상담/게시판을 통해 문의주시면 확인 후 접수 도와드리겠습니다.<br>
+                (타택배로 보내주실 경우 꼭 선불로 발송해주셔야 합니다)
+                </p>
+                
+                <p>
+                - 단순변심으로 인한 교환/반품 접수 시 배송비가 발생합니다<br>
+                (전체반품 6,000원, 부분반품 3,000원 / 교환 6,000원)
+                </p>
+
+                
+                <p>
+                교환/반품이 불가한 경우<br>
+                1. 네이버페이 / 지그재그 주문건이 구매확정 처리가 된 경우<br>
+                2. 오배송이 되었으나 이미 착용 또는 훼손이 된 경우<br>
+                -상품을 확인하지 않고 그대로 착용 또는 세탁 등으로 인해 상품이 훼손이 될 경우 교환/반품이 불가합니다.<br>
+                3. 상품의 착용흔적이나, 훼손, 냄새(바디미스트,바디워시,향수 등)가 있는 경우<br>
+                - 상품을 수선/세탁하신 경우 (세탁 후 불량/오배송이 발견되어도 교환/반품이 불가합니다)<br>
+                </p>
+
+                
+                <p>
+                4. 대량생산 특성상 제작과정에서 불가피하게 생기는 부분<br>
+                (아래에 기재된 사항에 예민하신 분들은 신중하게 구매 부탁드립니다)<br>
+                ※원단의 패턴 위치/오차범위 내의 실측차이/박음선 보임/실밥등의 마감처리/인위적인 원단냄새/단추마감이 헐렁한 경우/단추모양이 사진과 다른경우/프린트 잔여물/ 상,하의 (제작 시기에 따른) 미세한 원단차이 등<br>
+                5. 권장 세탁방법 미이행으로 인해 상품에 변형이 온 경우<br>
+                (염색된 원단의 경우 이염, 물빠짐이 있을 수 있습니다.)<br>
+                6. 간단하게 처리되는 재봉, 실밥, 초크자국과 털어서 지워지는 자국 등 경우<br>
+                7. 수량이 잘못 되었을 때 송장과 배송포장지를 버린경우<br>
+                (분실 될 경우 확인이 되지 않아 교환/반품이 되지 않으며 재배송이 되지 않습니다.)<br>
+                8. 상품을 받은 날로부터 7일(영업일기준) 안으로 접수를 해주셔야 합니다<br>
+                절차를 어긴 택배는 무통보 반송처리되며 반품/교환이 불가합니다<br>
+                (개인사정(출장, 해외여행 등)으로 인한 반품 준수일을 어긴 접수도 절대 불가능하니 참고 부탁드립니다)</p>
+                <p>전자상거래등에서의 소비자보호에 관한 법률에서 정한 청약철회관련 규정에 따라7일이내에 반품 및 교환 받을 수 있습니다.<br>
+                자세한 사항은 공지사항을 참고 부탁드립니다.<br>
+                </p>
+            </div>
+            <div class="payment_way">
+                <p>💳결제안내</p>
+                <p>결제/안내</p>
+                <p>- 무통장 입금의 경우 주문 시 입력한 입금자명과 실제 입금자가 반드시 일치하여야 하며 3일 이내로 입금 확인이 되지 않을 경우 주문 건은 자동 취소됩니다.</p>
+                <p>(입금자와 주문자 / 입금금액과 주문금액이 일치하지 않는 경우에는 게시판 또는 카카오톡 상담으로 말씀 부탁드립니다)</p>
+                <p> - 취소된 주문 건에 입금하셨을 경우, 카카오톡 상담으로 문의 부탁드립니다</p>
+                <p> - 휴대폰 결제의 경우 요금 청구서에서는 “소액결제”로 표시됩니다.</p>
+                <p> - 휴대폰 결제의 경우 당월 취소(전체 취소)만 가능합니다.</p>
+                <p> - 고액 결제의 경우 안전을 위해 카드사에서 확인 전화를 드릴 수도 있습니다. 확인 과정에서 도난 카드의 사용이나 타인 명의의 주문 등 정상적인 주문이 아니라고 판단될 경우 임의로 주문을 보류 또는 취소할 수 있습니다.</p>
+            </div>
         </div>
     </div>
 
-    <div class="review">
+    <div class="review" id="review">
         <div class="rating">
             <div class="star">
                 <div class="star_point">
@@ -425,7 +482,6 @@
             <div class="people_like">
                 <div>100%의 구매자들이 이 상품을 좋아합니다.</div>
                 <div>(12명 중 12명)</div>
-                
             </div>
         </div>
         <div class="photo_review">
@@ -441,11 +497,23 @@
             <div class="photo_review_2">
                 <div><img src="image/a_1.jpg" alt="" width="150px"></div>
                 <div><img src="image/a_2.jpg" alt="" width="150px"></div>
-            </div>
-            
+            </div> 
         </div>
     </div>
-    <div class="qna">
+    <div class="review_m">
+        <div class="review_box">
+            <div class="star_point">
+                <div>4.5</div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="black" width="60px"><path d="m259.3 17.8-65.3 132.4-146.1 21.3c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7l130.7-68.7 130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6l-146.1-21.3-65.3-132.4c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+            </div>
+            <div class="people_like">
+                <div>12개의 리뷰 평점</div>
+                <div>100%의 구매자들이 이 상품을 좋아합니다.</div>
+                <div>(12명 중 12명)</div>
+            </div>
+        </div>
+    </div>
+    <div class="qna" id="qna">
         <div class="qna_1">Q&A</div>
         <div class="qna_2">상품에 대해 궁금한 점이 있으신가요? 글을 남겨주시면 친절하고 빠르게 답변해드릴게요 :D</div>
         <div class="qna_3">게시물이 없습니다</div>
@@ -457,7 +525,7 @@
 
 
 
-    <footer>
+    <footer id="footer">
         <div class="footer_left">
             <div class="qna">
                 <div class="footer_left_title">C.S CENTER</div>
@@ -507,13 +575,24 @@
         </div>
     </footer>
     <div class="top_button">
-        <div>a</div>
-        <div>b</div>
-        <div>c</div>
-        <div>d</div>
-        <div>e</div>
+        <div id="top_button_1">
+            <a href="#header"><img src="image/up.png" alt=""></a>
+        </div>
+        <div id="top_button_2">
+            <a href="#"><img src="image/kakao.png" alt=""></a>
+        </div>
+        <div id="top_button_3">
+            <a href="#"><img src="image/navertt.png" alt=""></a>
+        </div>
+        <div id="top_button_4">
+            <a href="#"><img src="image/timer.png" alt=""></a>
+        </div>
+        <div id="top_button_5">
+            <a href="#footer"><img src="image/down.png" alt=""></a>
+        </div>
     </div>
     <script src="main.js"></script>
+    <script src="page_1.js"></script>
 </body>
 
 </html>

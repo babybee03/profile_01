@@ -28,6 +28,7 @@ body, html {
     padding: 0;
     margin: 0;
     font-family: 'GmarketSansMedium';
+    scroll-behavior: smooth;
 }
 * {
     box-sizing: border-box;
@@ -563,6 +564,33 @@ footer {
     font-size: 9pt;
     font-weight: 700;
 }
+.top_button {
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    width: 40px;
+    height: 220px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #d3d3d3;
+    z-index: 999;
+    border-radius: 20px;
+    text-align: center;
+}
+.top_button > div:not(:last-child) {
+    border-bottom: 1px solid #d3d3d3;
+}
+#top_button_1, #top_button_5{
+    line-height: 60px;
+    height: 50px;
+}
+#top_button_2, #top_button_3, #top_button_4 {
+    height: 40px;
+    line-height: 55px;
+}
+.top_button img {
+    width: 20px;
+}
+
 @media all and (max-width: 1550px) {
     .sub_image_2_scroll {
         width: 100%;
