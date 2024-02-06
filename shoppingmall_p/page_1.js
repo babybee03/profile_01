@@ -3,11 +3,10 @@ var check = $(".inventory_check");
 $(function(){
     $(".expand_down").on("click", function(){
         $(".inventory_info").slideToggle(800);
-        
+
         if(check.hasClass("open")) {
-            check.delay(800).queue(function(next){
+            check.delay(800).queue(function(){
                 $(this).removeClass("open");
-                next();
             });
         } else {
             check.addClass("open");

@@ -202,6 +202,7 @@
     width: 100px;
     background-color: #fee500;
     border: 1px solid #ddd;
+    user-select: none;
 }
 .sns_left > div:nth-child(3) {
     width: 40px;
@@ -304,33 +305,19 @@
     margin: 0 auto 30px;
     text-align: center;
     color: #5b5b5b;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.delivery_button div:first-child {
-    width: 33%;
+
+.delivery_button div {
+    width: calc(100%/3);
     height: 55px;
     line-height: 55px;
     text-align: center;
-    background-color: #d5c3ff;
-    border-radius: 10px 0 0 10px ;
     cursor: pointer;
-}
-.delivery_button div:nth-child(2) {
-    width: 33%;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
     background-color: #ececec;
-    cursor: pointer;
 }
-.delivery_button div:nth-child(3) {
-    width: 33%;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    background-color: #ececec;
-    border-radius: 0 10px 10px 0 ;
-    cursor: pointer;
-}
+
 .delivery_way p{
     padding-left: 50px;
 }
@@ -450,10 +437,11 @@
     gap: 50px;
     padding-top: 10px;
 }
-.qna {
+.qnas {
     width: 80%;
     margin: 0 auto;
     padding: 50px 0;
+    
 }
 .qna_1 {
     font-weight: 700;

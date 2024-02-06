@@ -198,7 +198,7 @@ animation-delay: 35s;
 }
 .category_1 {
     position: relative;
-    
+    line-height: 18px;
 }
 .category_1 > div {
     position: absolute;
