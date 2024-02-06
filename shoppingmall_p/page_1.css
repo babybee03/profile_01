@@ -109,7 +109,6 @@
 .inventory {
     width: 100%;
     margin-bottom: 15px;
-    
 }
 .inventory_check {
     display: flex;
@@ -169,13 +168,13 @@
 }
 .shopping_from_sns {
     width: 100%;
-    
     border-top: 2px solid black;
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 10pt;
-    padding: 15px 0;
+    padding: 5px 0;
     margin-bottom: 10px;
 }
 .sns_left {
@@ -187,6 +186,10 @@
     text-align: center;
     height: 36px;
     line-height: 36px;
+}
+.sns_left > div:nth-child(3) {
+    display: flex;
+    justify-content: center;
 }
 .sns_left img {
     width: 20px !important;
@@ -211,6 +214,7 @@
 }
 .sns_right {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 .sns_right > div {
@@ -229,6 +233,7 @@
 .sns_right > div:first-child {
     text-align:left;
     line-height: 13px;
+    height: 50px;
 }
 .sns_right > div:nth-child(2) {
     width: 100px;
@@ -551,11 +556,54 @@
     .pay_card img {
         width: 77px;
     }
+    .shopping_from_sns {
+        font-size: 8pt;
+    }
+    .sns_left > div:first-child {
+        width: 50px;
+    }
+    .sns_left > div:nth-child(2) {
+        width: 50px;
+        background-color: #fee500;
+        border: 1px solid #ddd;
+    }
+    .sns_left > div:nth-child(3) {
+        width: 30px;
+        background-color: #fee500;
+        border: 1px solid #ddd;
+    }
+    .sns_left > div:nth-child(4) {
+        width: 30px;
+        border: 1px solid #ddd;
+    }
+    .sns_right {
+        gap: 5px;
+    }
+    .sns_right p {
+        font-size: 7pt;
+    }
+    .sns_right > div:nth-child(2) {
+        width: 60px;
+    }
+    .sns_right > div:nth-child(3) {
+        width: 40px;
+        border: 1px solid #ddd;
+    }
+    .sns_right > div:nth-child(4) {
+        width: 40px;
+        border: 1px solid #ddd;
+    }
     .detail_info img {
         width: 500px;
     }
 }
 @media all and (max-width: 1160px) {
+    .sns_left > div:first-child {
+        display: none;
+    }
+    .sns_right > div:first-child {
+        display: none;
+    }
     .delivery_way p{
         padding-left: 50px;
         padding-right: 50px;
@@ -598,19 +646,51 @@
         border: 1px solid #cbcbcb;
         border-radius: 5px;
         display: flex;
+        padding: 15px 0;
     }
     .people_like {
         display: flex;
         flex-direction: column;
         padding-left: 0;
+        line-height: 11px;
+
     }
     .star_point {
         padding-left: 0;
         width: 20%;
     }
     .star_point div:first-child {
-        
-        top: 30px;
+        top: 20px;
         font-size: 10pt;
+    }
+}
+@media all and (max-width: 750px) {
+    .clothes_shot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .clothes_explanation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .clothes_shot img {
+        width: 100%;
+    }
+    .detail_info img {
+        width: 300px;
+    }
+    .detail_info div:nth-child(3) {
+        font-size: 9pt;
+    }
+    .detail_info div:nth-child(7) {
+        font-size: 9pt;
+    }
+    .delivery_button {
+        font-size: 9pt;
     }
 }
