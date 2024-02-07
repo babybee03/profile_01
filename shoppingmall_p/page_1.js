@@ -19,11 +19,45 @@ $(function(){
         $(".delivery_way").css({
             "display": "none"
         })
+        $(".exchange_way").css({
+            "display": "block"
+        })
         $(".payment_way").css({
             "display": "none"
         })
-        $(".exchange_way").css({
+        $(".delivery_button").removeClass(".color_change")
+        $(this).css({
+            "background-color":"#d5c3ff"
+        })
+    })
+
+    $(".delivery_button_1").on('click', function(){
+        $(".delivery_way").css({
             "display": "block"
+        })
+        $(".exchange_way").css({
+            "display": "none"
+        })
+        $(".payment_way").css({
+            "display": "none"
+        })
+        $(this).css({
+            "background-color":"#d5c3ff"
+        })
+    })
+
+    $(".delivery_button_3").on('click', function(){
+        $(".delivery_way").css({
+            "display": "none"
+        })
+        $(".exchange_way").css({
+            "display": "none"
+        })
+        $(".payment_way").css({
+            "display": "block"
+        })
+        $(this).css({
+            "background-color":"#d5c3ff"
         })
     })
 })
