@@ -14,6 +14,8 @@ $(function(){
     });
 })
 
+
+/*배송안내 버튼*/
 $(function(){
     $(".delivery_button_2").on('click', function(){
         $(".delivery_way").css({
@@ -25,10 +27,10 @@ $(function(){
         $(".payment_way").css({
             "display": "none"
         })
-        $(".delivery_button").removeClass(".color_change")
-        $(this).css({
-            "background-color":"#d5c3ff"
-        })
+        
+        $(".delivery_button_1").removeClass("color_change");
+        $(".delivery_button_3").removeClass("color_change");
+        $(this).addClass("color_change");
     })
 
     $(".delivery_button_1").on('click', function(){
@@ -41,9 +43,9 @@ $(function(){
         $(".payment_way").css({
             "display": "none"
         })
-        $(this).css({
-            "background-color":"#d5c3ff"
-        })
+        $(".delivery_button_2").removeClass("color_change");
+        $(".delivery_button_3").removeClass("color_change");
+        $(this).addClass("color_change");
     })
 
     $(".delivery_button_3").on('click', function(){
@@ -56,8 +58,8 @@ $(function(){
         $(".payment_way").css({
             "display": "block"
         })
-        $(this).css({
-            "background-color":"#d5c3ff"
-        })
+        $(".delivery_button_1").removeClass("color_change");
+        $(".delivery_button_2").removeClass("color_change");
+        $(this).addClass("color_change");
     })
 })

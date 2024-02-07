@@ -317,9 +317,11 @@
     cursor: pointer;
     background-color: #ececec;
 }
-.color_change{
+
+.delivery_button div.color_change{
     background-color: #d5c3ff;
 }
+
 .delivery_way p{
     padding-left: 50px;
 }
