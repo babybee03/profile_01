@@ -1,0 +1,33 @@
+.hot_keyword {
+    grid-area: hot_keyword;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 10pt;
+    margin: 300px;
+}
+.hot_keyword > div:first-child {
+    height: 30px;
+    border-right: 1px solid #a3a3a3;
+    padding-right: 30px;
+    line-height: 30px;
+}
+.keyword_box_container {
+    height: 30px;
+    
+}
+.keyword_box {
+    transition-duration: 400ms;
+}
+.keyword_box > div {
+    height: 30px;
+    line-height: 30px;
+}
+.keyword_box strong {
+    color: #d5c3ff;
+}
+.keyword_box a {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
